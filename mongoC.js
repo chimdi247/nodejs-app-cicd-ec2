@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
-const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
-const connectionString = `mongodb+srv://integrationninjas:${password}@devcluster.hu5pjmi.mongodb.net/?retryWrites=true&w=majority`; // cluster url
+
+const connectionString = "mongodb+srv://chimdi247:sGalrb4UZK2LWasV@mern-auth.rbx23t7.mongodb.net/Mern-cicd-ec2?retryWrites=true&w=majority" ; // cluster url
 const client = new MongoClient(connectionString);
 let conn;
 try {
